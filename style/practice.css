@@ -124,47 +124,81 @@ body {
 
 /* time plan */
 
-/* .main-time-part {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: linear-gradient(90deg, #0e84e4 -60%, rgba(0, 95, 172, 0.00) 70%);
+.main-time-part {
+    background-image: linear-gradient(45deg, rgba(53, 85, 226, 0.5), rgba(0, 0, 0, 0)), url("../images/watch.png");
     background-repeat: no-repeat;
-    background-size:  cover;
-    
-} */
-.time-part{
-    position: relative;
+    background-size: cover;
+    height: 40vh;
     margin: 100px;
-    
+    padding-top: 25px;
+    padding-left: 40px;
 }
 
 .time-description {
-    color: #7cace2;
+    color: #FFF;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    top: 70px;
-    left: 50px;
-
+    padding-bottom: 30px;
 }
-.time-btn{
+
+.time-btn {
     color: #005FAC;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+
     border: 0;
     border-radius: 5px;
     background: #FFF;
     padding: 15px;
-    position: absolute;
-    top: 200px;
-    left: 50px;
+    /* padding-bottom: 20px; */
 }
 
-/* .main-time-part{
-    border: 1px solid red;
-    margin: 50px 200px 50px 150px;
-    padding: 50px;
-} */
+/* footer  */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 500px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.footer-h3 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.footer-email{
+    padding: 20px;
+    margin-top: 20px;
+}
+.subscribe-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0;
+    background: #005FAC;
+    margin-top: 20px;
+    padding: 15px;
+
+}
+.img{
+    margin-top: 20px;
+}
